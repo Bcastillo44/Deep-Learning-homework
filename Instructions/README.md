@@ -12,7 +12,7 @@ You will need to:
 2. [Build and train custom LSTM RNNs](#build-and-train-custom-lstm-rnns)
 3. [Evaluate the performance of each model](#evaluate-the-performance-of-each-model)
 
-- - -
+---
 
 ### Files
 
@@ -20,7 +20,7 @@ You will need to:
 
 [FNG Starter Notebook](Starter_Code/lstm_stock_predictor_fng.ipynb)
 
-- - -
+---
 
 ## Instructions
 
@@ -36,7 +36,7 @@ Each model will need to use 70% of the data for training and 30% of the data for
 
 Apply a MinMaxScaler to the X and y values to scale the data for the model.
 
-Finally, reshape the X_train and X_test values to fit the model's requirement of samples, time steps, and features. (*example:* `X_train = X_train.reshape((X_train.shape[0], X_train.shape[1], 1))`)
+Finally, reshape the X_train and X_test values to fit the model's requirement of samples, time steps, and features. (_example:_ `X_train = X_train.reshape((X_train.shape[0], X_train.shape[1], 1))`)
 
 ### Build and train custom LSTM RNNs
 
@@ -56,7 +56,7 @@ Use the above to answer the following:
 >
 > Which window size works best for the model?
 
-- - -
+---
 
 ### Resources
 
@@ -66,7 +66,7 @@ Use the above to answer the following:
 
 [Stanford's RNN Cheatsheet](https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-recurrent-neural-networks)
 
-- - -
+---
 
 ### Hints and Considerations
 
@@ -74,16 +74,16 @@ Experiment with the model architecture and parameters to see which provides the 
 
 For training, use at least 10 estimators for both models.
 
-- - -
+---
 
 ### Submission
 
-* Create Jupyter Notebooks for the homework and host the notebooks on GitHub.
+- Create Jupyter Notebooks for the homework and host the notebooks on GitHub.
 
-* Include a Markdown that summarizes your homework and include this report in your GitHub repository.
+- Include a Markdown that summarizes your homework and include this report in your GitHub repository.
 
-* Submit the link to your GitHub project to Bootcamp Spot.
+- Submit the link to your GitHub project to Bootcamp Spot.
 
-- - -
+---
 
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
