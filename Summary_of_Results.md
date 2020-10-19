@@ -1,11 +1,21 @@
-# Deep Learning
+### Evaluate the performance of each model
 
-1. Which model has a lower loss?
+Finally, use the testing data to evaluate each model and compare the performance.
 
-   -
+Use the above to answer the following:
 
-2. Which model tracks the actual values better over time?
+> Which model has a lower loss?
 
-   -
+LSTM Stock Predictor Using Closing Prices
 
-3. ## Which window size works best for the model?
+> Which model tracks the actual values better over time?
+
+LSTM Stock Predictor Using Closing Prices
+
+> Which window size works best for the model?
+
+- A 10-day window works best on the Predictor Using Closing Prices
+
+- A 1-day window works a better on the Predictor Using Fear and Greed Index
+
+---
