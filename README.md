@@ -38,7 +38,7 @@ Each model will need to use 70% of the data for training and 30% of the data for
 
 Apply a MinMaxScaler to the X and y values to scale the data for the model.
 
-Finally, reshape the X_train and X_test values to fit the model's requirement of samples, time steps, and features. (_example:_ `X_train = X_train.reshape((X_train.shape[0], X_train.shape[1], 1))`)
+Finally, reshape the X*train and X_test values to fit the model's requirement of samples, time steps, and features. (\_example:* `X_train = X_train.reshape((X_train.shape[0], X_train.shape[1], 1))`)
 
 ### Build and train custom LSTM RNNs
 
@@ -53,39 +53,17 @@ Finally, use the testing data to evaluate each model and compare the performance
 Use the above to answer the following:
 
 > Which model has a lower loss?
->
+
+LSTM Stock Predictor Using Closing Prices
+
 > Which model tracks the actual values better over time?
->
+
+LSTM Stock Predictor Using Closing Prices
+
 > Which window size works best for the model?
 
----
+- A 10-day window works best on the Predictor Using Closing Prices
 
-### Resources
-
-[Keras Sequential Model Guide](https://keras.io/getting-started/sequential-model-guide/)
-
-[Illustrated Guide to LSTMs](https://towardsdatascience.com/illustrated-guide-to-lstms-and-gru-s-a-step-by-step-explanation-44e9eb85bf21)
-
-[Stanford's RNN Cheatsheet](https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-recurrent-neural-networks)
+- A 1-day window works a better on the Predictor Using Fear and Greed Index
 
 ---
-
-### Hints and Considerations
-
-Experiment with the model architecture and parameters to see which provides the best results, but be sure to use the same architecture and parameters when comparing each model.
-
-For training, use at least 10 estimators for both models.
-
----
-
-### Submission
-
-- Create Jupyter Notebooks for the homework and host the notebooks on GitHub.
-
-- Include a Markdown that summarizes your homework and include this report in your GitHub repository.
-
-- Submit the link to your GitHub project to Bootcamp Spot.
-
----
-
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
