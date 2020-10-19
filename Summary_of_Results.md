@@ -1,9 +1,5 @@
 ### Evaluate the performance of each model
 
-Finally, use the testing data to evaluate each model and compare the performance.
-
-Use the above to answer the following:
-
 > Which model has a lower loss?
 
 LSTM Stock Predictor Using Closing Prices
